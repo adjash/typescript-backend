@@ -11,4 +11,4 @@ router.get("/about", (req: Request, res: Response) => {
   res.send("beats / about route");
 });
 
-export { router as beatRouter };
+export default router;

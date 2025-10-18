@@ -1,5 +1,5 @@
 import express from "express";
-import { beatRouter } from "./routes/beats.ts";
+import beatRouter from "./routes/beats";
 
 const app = express();
 
